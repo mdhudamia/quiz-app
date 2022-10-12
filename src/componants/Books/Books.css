@@ -1,0 +1,26 @@
+.books {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-content: center;
+    grid-gap: 100px;
+    padding: 50px 100px;
+}
+
+.single-book {
+    background: #f9eaea;
+    padding: 40px;
+    border-radius: 10px;
+    height: 250px;
+}
+
+.single-book img {
+    width: 40%;
+    align-items: center;
+}
+
+button {
+    background: yellow;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
